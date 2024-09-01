@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components'
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = function() {
 
@@ -16,6 +17,7 @@ const App = function() {
       <Tech/>
       <Works/>
       <Feedbacks/>
+      <ScrollToTop />
 
       {/* 3d stars object */}
       <div className="relative z-0 ">
